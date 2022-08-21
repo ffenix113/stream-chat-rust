@@ -1,6 +1,6 @@
 # Rust SDK for [Stream Chat](https://getstream.io/chat/)
 
-[![build](https://github.com/ffenix113/stream-chat-rust/workflows/build/badge.svg)](https://github.com/ffenix113/stream-chat-rust/actions)
+[![Rust](https://github.com/ffenix113/stream-chat-rust/actions/workflows/rust.yml/badge.svg)](https://github.com/ffenix113/stream-chat-rust/actions/workflows/rust.yml)
 
 <p align="center">
     <img src="./assets/logo.svg" width="50%" height="50%">
@@ -26,15 +26,13 @@ For the client-side integrations (web and mobile) have a look at the JavaScript,
 
 ## ⚠️ Important
 
-This is not concidered "official" SDK(at least for now), as such does not have same support availability as official SDKs do.
+This is not concidered "official" SDK, as such does not have same support availability as official SDKs do.
 
 For example only support currently possible for this SDK is though Github issues/discussions, 
 and not through GetStream support.
 
 If there is an issue with this SDK - please test with REST / official SDK to see if the issue is in this SDK.
-If it is not - use official [https://getstream.io/contact/support/](support channel), if it is - use Github issues/discussions.
-
-This SDK might also be not as feature rich, meaning optional features might be missing, not all endpoints might be supported and so on.
+If it is not - use official [https://getstream.io/contact/support/](support channel), if it is - use Github issues/discussions in this repo.
 
 ## State of this SDK
 
