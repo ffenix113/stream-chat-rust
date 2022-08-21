@@ -1,13 +1,9 @@
 #[macro_use]
 extern crate serde_derive;
 
-mod client;
+pub mod client;
 pub mod endpoints;
-mod models;
-
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+pub mod models;
 
 #[cfg(test)]
 mod tests {
@@ -16,12 +12,6 @@ mod tests {
     use crate::models::ApiError;
 
     use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
 
     #[test]
     fn construct_client() {

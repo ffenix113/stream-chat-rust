@@ -39,3 +39,24 @@ If it is not - use official [https://getstream.io/contact/support/](support chan
 Rust SDK is in early development. No stability guarantees are provided.
 
 Expect library to be broken, function signatures to change, functionality to be dropped/added, types changed etc.
+
+## Installation
+
+Add to your `Cargo.toml`:
+```
+[dependencies]
+stream_chat_rust = { git = "https://github.com/ffenix113/stream-chat-rust", branch = "master" }
+```
+
+## Getting started
+
+```rust
+use stream_chat_rust::client::StreamChat;
+
+fn main() {
+    let api_key = String::from("api_key");
+    let api_secret = String::from("api_secret");
+    let chat = StreamChat::new(api_key, api_secret).unwrap();
+    // Use `chat` as necessary.
+}
+```
